@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Appointment</title>
+    <link rel="stylesheet" href="bookAppointment.css">
+</head>
+<body>
+    <h1 class="centered">Booking Appointment</h1>
+    <hr>
+    <form class="centered" onsubmit="bookAppointment(event)">
+        <label for="name">Name : </label>
+            <input type="text" id="name" name="name"><br>
+        <label for="phone">Phone Number : </label>
+            <input type="number" id="phone" name="phone"><br>
+        <label for="Email">Email :</label>
+            <input type="email" id="email" name="email"><br>
+        <input type="hidden" id="id" name="id">
+        <button id="form-button" name="button" type="submit">Book Appointment</button>        
+    </form>
+    <br><hr>
+    <h2>Available Appointments</h2>
+    <ul id="list">
+
+    </ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="bookAppointment.js"></script>
+</html>
