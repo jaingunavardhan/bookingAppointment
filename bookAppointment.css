@@ -1,32 +1,64 @@
+body{
+    background-color: rgb(154, 255, 221);
+}
+
 .centered{
     text-align: center;
+}
+
+label{
+    color: blue;
 }
 
 input{
     margin: 3px;
     padding: 2px;
+    background-color: inherit;
+    border-radius: 3px;
+    border-color: rgb(129, 129, 255);
 }
 
-button{
+#form-button{
     margin: 3px;
     padding: 5px;
     color: blue;
     border-color: blue;
     border-radius: 5px;
+    background-color: inherit;
+}
+#form-button:hover,
+#form-button:active{
+    background-color: blue;
+    color: white;
+}
+
+button{
+    margin: 3px;
+    padding: 5px;
+    color: maroon;
+    border-color: maroon;
+    border-radius: 5px;
+    background-color: inherit;
 }
 
 button:hover,
 button:active{
-    background-color: blue;
+    background-color: maroon;
     color: white;
 }
 
 ul{
     list-style-position: inside;
+    color: maroon;
+}
+
+h1{
+    color: green;
 }
 
 h2{
     margin-left: 40px;
+    color: maroon;
 }
 
 li{
