@@ -16,6 +16,7 @@ input{
     background-color: inherit;
     border-radius: 3px;
     border-color: rgb(129, 129, 255);
+    color: maroon;
 }
 
 #form-button{
